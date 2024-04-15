@@ -1,0 +1,6 @@
+@SwiftTalk.WebApi_HostAddress = http://localhost:5069
+
+GET {{SwiftTalk.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
