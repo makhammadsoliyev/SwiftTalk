@@ -5,6 +5,7 @@ namespace SwiftTalk.Domain.Entities;
 public class Message : Auditable
 {
     public long SenderId { get; set; }
+    public User Sender { get; set; }
     public long ConversationId { get; set; }
     public Conversation Conversation { get; set; }
     public string Content { get; set; }
