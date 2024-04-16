@@ -11,4 +11,6 @@ public class User : Auditable
     public Role Role { get; set; }
     public long? AvatarId { get; set; }
     public Asset Avatar { get; set; }
+    public IEnumerable<Message> Messages { get; set; }
+    public IEnumerable<UserConversation> UserConversations { get; set; }
 }
